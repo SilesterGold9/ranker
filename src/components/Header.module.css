@@ -1,0 +1,50 @@
+/* Header.module.css */
+
+/* Estilos globais */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Estilos do header */
+header {
+	background-color: #242424; /* Cor de fundo */
+	color: #fff; /* Cor do texto */
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between; /* Alinha os elementos ao redor */
+	align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.logo {
+	width: 100px; /* Tamanho do logo */
+}
+
+.nav {
+	display: flex;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav li {
+	margin-left: 1rem; /* Espaçamento entre os itens */
+}
+
+.nav a {
+	color: #fff; /* Cor dos links */
+	text-decoration: none;
+	transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse */
+}
+
+.nav a:hover {
+	color: #61dafb; /* Cor dos links ao passar o mouse */
+}
+
+.active {
+	font-weight: bold; /* Estilo do link ativo */
+}
