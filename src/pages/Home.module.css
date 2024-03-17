@@ -1,0 +1,54 @@
+:root {
+	--clr-bg-primary: #242424;
+	--clr-accent-primary: #ff4136;
+	--clr-text-light: #f2cef2;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.gradientText {
+	font-weight: 800;
+	background: linear-gradient(135deg, #d71e14, #f5393c 50%, #f25555 100%);
+
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hero {
+	margin: 5rem 4.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.hero h2 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+.hero p {
+	margin: 4.5rem 0;
+}
+
+.holder {
+	position: relative;
+}
+
+.underline {
+	position: absolute;
+	right: 13em;
+	width: 11em;
+}

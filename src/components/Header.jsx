@@ -5,7 +5,6 @@ import styles from "./Header.module.css";
 const Header = () => {
 	return (
 		<header>
-			{/* Logo com link para a página inicial */}
 			<NavLink to='/' className={styles.logoLink}>
 				<img
 					src='src\assets\images\ranker-high-resolution-logo-transparent.svg'
