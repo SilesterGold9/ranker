@@ -2,11 +2,19 @@ import styles from "./Loader.module.css";
 
 const LoadingSpinner = () => {
 	return (
-		<div className={styles.loader}>
-			<div className={styles.box1}></div>
-			<div className={styles.box2}></div>
-			<div className={styles.box3}></div>
-		</div>
+		<>
+			return (
+			<div className={styles.loader}>
+				<img
+					className={styles.logo}
+					src='src\assets\images\ranker-high-resolution-logo-transparent.svg'
+					alt='Ranker Logo'
+					loading='eager'
+				/>
+				<p>Loading...</p>
+				<div className={styles.loadingAnimation}></div>
+			</div>
+		</>
 	);
 };
 
